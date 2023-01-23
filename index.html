@@ -2,22 +2,41 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Document</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     </head>
-    <title>My Webpage</title>
     
     <body>
-        <h1>Welcome to My First Webpage</h1>
-        <p>This is my first webpage, and I'm excited to learn more about HTML.</p>
-        <p>In this webpage, I will be sharing information about my hobbies and interests.</p>
-        <img src="./media/250px-Collage_of_Six_Cats-01.jpg" alt="Cats.">
-        <p>Check out my <a href="https://github.com/jasgaa/">github page</a> for more information.</p>
-        <p>Useful links:
-            <ul>
-                <li><a href="https://moodle.tuni.fi">Tuni moodle</a></li>
-                <li><a href="https://google.com">Google</a></li>
-            </ul>
-        </p>
-  </body>
-
-</html>
+        <div class="wide-box">
+            <header id="main-header">Welcome to My First Webpage with css</header>
+                <nav class="nav-bar"><a href="./index.html">MAIN PAGE</a></nav>
+                <nav class="nav-bar"><a href="https://github.com/jasgaa/">GitHub</a></nav>
+                <nav class="nav-bar"><a href="https://google.com">Google</a></nav>
+                <nav class="nav-bar"><a href="https://moodle.tuni.fi">Tuni Moodle</a></nav>
+                <nav class="nav-bar"><a href="">TODO</a></nav>
+            <br> <br>
+            <article class="box">
+                This is my first webpage, and I'm excited to learn more about HTML. In this webpage, I will be sharing information about my hobbies and interests.
+            </article>
+            <br> <br>
+            <section class="box">
+                <section class="half-section" id="left-section">
+                    <h2>Interests:</h2>
+                    <ul>
+                        <li>Technical stuff</li>
+                        <li>Programming (C/C++)</li>
+                        <li>Learn the inherit logic of CSS (seems to be weird compaired to C++)</li>
+                        <li></li>
+                    </ul>
+                </section>
+                <section class="half-section" id="right-section">
+                    <img src="./media/250px-Collage_of_Six_Cats-01.jpg" alt="Six cats.">
+                </section>
+            </section>
+        </div>
+    </body>

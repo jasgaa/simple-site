@@ -1,0 +1,65 @@
+.wide-box {
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.box {
+    background-color: inherit;
+    border-radius: inherit;
+}
+
+.clear-floting {
+    clear: both;
+}
+
+#main-header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.nav-bar {
+    background-color: rgb(64, 240, 240);
+    border-radius: inherit;
+    display: inline-block;
+    font-size: large;
+    text-align: center;
+    margin: 0.5%;
+    margin-top: -5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: calc(80% / 5);
+}
+
+.half-section {
+    background-color: inherit;
+    border-radius: inherit;
+    width: 50%;
+}
+
+#left-section {
+    float: left;
+}
+
+#right-section {
+    float: right;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+}
