@@ -7,6 +7,11 @@
     width: 80%;
 }
 
+.box {
+    background-color: inherit;
+    border-radius: inherit;
+}
+
 .clear-floting {
     clear: both;
 }
@@ -16,8 +21,7 @@
     font-weight: bolder;
     font-size: xx-large;
     margin-top: 2%;
-    margin-bottom: 7%;
-
+    margin-bottom: 5%;
 }
 
 .nav-bar {
@@ -33,12 +37,19 @@
     width: calc(80% / 5);
 }
 
-#nav-1 {
-    
+.half-section {
+    background-color: inherit;
+    border-radius: inherit;
+    width: 50%;
 }
 
+#left-section {
+    float: left;
+}
 
-
+#right-section {
+    float: right;
+}
 a {
     color: blue;
     text-decoration: none;
