@@ -4,39 +4,37 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Webpage</title>
-        <link rel="stylesheet" href="./style.css">
+        <title>My Webpage with GRID & FLEX</title>
+        <link rel="stylesheet" href="./better_style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     </head>
     
     <body>
-        <div class="wide-box">
-            <header id="main-header">Welcome to My First Webpage with css</header>
-                <nav class="nav-bar"><a href="./index.html">MAIN PAGE</a></nav>
-                <nav class="nav-bar"><a href="https://github.com/jasgaa/">GitHub</a></nav>
-                <nav class="nav-bar"><a href="https://google.com">Google</a></nav>
-                <nav class="nav-bar"><a href="https://moodle.tuni.fi">Tuni Moodle</a></nav>
-                <nav class="nav-bar"><a href="">TODO</a></nav>
-            <br> <br>
-            <article class="box">
+        <div class="grid-container">
+            <header>Welcome to My First Webpage with css</header>
+            <aside id="nav-bar">
+                <!--<img src="" alt="House image" >-->
+                <a href="./index.html">Home page</a>
+                <a href="">Next page</a>
+            </aside>
+
+            <article class="grid-item">
                 This is my first webpage, and I'm excited to learn more about HTML. In this webpage, I will be sharing information about my hobbies and interests.
             </article>
-            <br> <br>
-            <section class="box">
-                <section class="half-section" id="left-section">
-                    <h2>Interests:</h2>
-                    <ul>
-                        <li>Technical stuff</li>
-                        <li>Programming (C/C++)</li>
-                        <li>Learn the inherit logic of CSS (seems to be weird compaired to C++)</li>
-                        <li></li>
-                    </ul>
-                </section>
-                <section class="half-section" id="right-section">
-                    <img src="./media/250px-Collage_of_Six_Cats-01.jpg" alt="Six cats.">
-                </section>
-            </section>
+
+            <footer class="flex-container">
+                <a href="https://github.com/jasgaa">
+                    <img src="./media/github-mark.png" alt="GitHub logo." style="width: 50px">
+                </a>
+                <a href="https://github.com/jasgaa">
+                    <img src="./media/github-mark-white.png" alt="GitHub logo." style="width: 50px">
+                </a>
+                <a href="https://github.com/jasgaa">
+                    <img src="./media/github-mark.png" alt="GitHub logo." style="width: 50px">
+                </a>
+            </footer>
+            
         </div>
     </body>
