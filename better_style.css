@@ -1,16 +1,3 @@
-body {
-    font-family: 'Crimson Text', serif;
-}
-
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 header {grid-area: hdr; }
 #nav-bar {grid-area: nav; }
 article {grid-area: art; }
@@ -21,7 +8,7 @@ footer {grid-area: ftr; }
     background-color: skyblue;
     grid-template-areas:
         'hdr hdr hdr hdr'
-        'nav art art art'
+        'art art art art'
         'ftr ftr ftr ftr';
     border-radius: 10px;
 }
@@ -52,10 +39,63 @@ header {
     font-size: x-large;
     font-weight: 1000;    
 }
-#nav-bar {
-    width: 20vw;
-    min-width: fit-content;
-    text-align: left;
-    margin: 3%;
+
+
+/* Items above this will be deleted eventually */
+body {
+    font-family: 'Crimson Text', serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: rgb(0, 100, 255);
+}
+
+.navbar a {
+    cursor: default;
+}
+
+.navbar a:hover {
+    color:cyan;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item{
+    display: grid;
+    grid-template-columns: 1.2em auto;
+    align-items: center;
+    padding-left: 1.1em;
+    gap: 0.2em;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.nav-icon {
+    height: 1rem;
+    transform: translate(-50%);
+}
+
+.footer-logos {
+    height: 3em;
+}
+
+#nav-icon {
+    height: 2em;
+    padding-left: 0.6em;
+}
+
 
